@@ -1,0 +1,51 @@
+/* -----------------------------Body---------------------------- */
+main,footer{
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+// div#wrapper{
+//     max-width: 80%;
+//     margin: 2rem auto;
+//     box-shadow: 0 0 10px #000000;
+// }
+/* -------------------------Navigation--------------------- */
+
+nav{
+    ul{
+        margin-left: $gutter;
+        border-left: 1px solid rgba(0,0,0,0.3);
+    }
+    ul li{
+        width: auto;
+    }
+    ul li a{
+        padding: .5rem 1rem;
+    }
+}
+
+
+
+/* -------------------------Main--------------------- */
+
+main{
+    figure.foto{
+        width: 25%-$gutterdbl;
+        float: left;
+
+    }
+    figure.foto img{
+        width: 100%;
+
+    }
+    div.blog article{
+        float:left;
+        width: 33.33%-$gutterdbl;
+    }
+    div.blog article:nth-child(2n+1){
+        clear: none;
+    }
+    div.blog article:nth-child(3n+1){
+    clear: left;
+    }
+}

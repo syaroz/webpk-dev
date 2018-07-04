@@ -1,0 +1,33 @@
+{
+  "name": "webpk-dev",
+  "version": "1.0.0",
+  "description": "Webpack basic",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config=config/webpack.dev.js",
+    "build": "webpack --config=config/webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syaroz/webpk-dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syaroz/webpk-dev/issues"
+  },
+  "homepage": "https://github.com/syaroz/webpk-dev#readme",
+  "dependencies": {
+    "eslint": "^5.0.1",
+    "webpack": "^4.14.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0"
+  }
+}
